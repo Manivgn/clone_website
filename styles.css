@@ -274,22 +274,24 @@ body{
     opacity: 0.5;
     
 }
+@media(max-width : 760px){
+    .nav-container{
+        visibility: collapse;
+    }
+    .header-link{
+        visibility: collapse;
+    }
+
+}
 @media (max-width : 1110px) {
 
-    
-    
-
-    .top-footer{
-        display: block;
-        padding-top: 30px;
-    }
-    .top-footer .box{
-            
-       
-        
-    }
-    .main-nav{
-        overflow: hidden;
-        
-    }
+.top-footer{
+    display: block;
+    padding-top: 30px;
 }
+.main-nav{
+    overflow: hidden;
+    
+}
+}
+
